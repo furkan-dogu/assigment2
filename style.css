@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #131E25;
+}
+
+/* ! -------- HEADER --------- */
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Bungee Shade', cursive;
+    color: white;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+/* ! -------- NAV --------- */
+
+nav {
+    text-align: center;
+    text-transform: capitalize;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: .5rem;
+    background-color: #D2B48C;
+    display: inline-block;
+    width: 6rem;
+    height: 2.5rem;
+    padding-top: .7rem;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    color: #890F12;
+    background-color: #726958;
+}
+
+/* ! -------- MAIN --------- */
+
+/* ? ---ABOUT--- */
+
+#about {
+    font-family: 'Rampart One', cursive;
+    color: #FFEBCD;
+    text-align: center;
+    font-size: 3rem;
+    margin: 11rem 2rem;
+    
+}
+
+
+
+/* ? ---PROJECTS--- */
+
+.title{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.title span {
+    border-bottom: 1px solid white;
+}
+
+#projects .images {
+   /* margin-top: 1.8rem; */
+   width: 100%;
+   margin: auto;
+   text-align: center;
+   
+}
+
+#projects .images .img-box {
+    
+    /* margin: 5px; */
+    display: inline;
+}
+
+
+
+#projects .images .img-box img{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 10px 1px;
+}
+
+#projects .images .img-box img:hover {
+    opacity: .5;
+}
+
+.clear {
+    clear: both;
+}
+
+/* ? ---CONTACT--- */
+
+#contact .icons {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+#contact .icons a {
+    color: #D2B48C;
+    text-decoration: none;
+    margin-right: 1rem;
+    padding: .5rem 1rem;
+}
+
+#contact .icons a:hover {
+    color: #FF4500;
+}
+
+/* ! -------- FOOTER --------- */
+
+footer h3 {
+    color: white;
+    text-align: center;
+}
+
+footer .form{
+    
+    width: 50%;
+    margin: auto;
+}
+
+footer .form .form-box {
+    margin-top: 20px;
+}
+
+footer .form .form-box input,
+footer .form .form-box textarea {
+    width: 100%;
+    padding: .8rem;
+    background: transparent;
+    border: 2px solid #D2B48C;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+
+footer .form button {
+    width: 100%;
+    margin: 1rem 0;
+    background-color: #D2B48C;
+    padding: 1rem;
+    color: white;
+    font-weight: 900;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button i{ 
+    color: #FF4500; 
+    visibility: hidden; 
+}
+
+footer .form button:hover {
+    color: #FF4500;
+    padding: 1.5rem;
+    letter-spacing: 6px;
+    
+}
+
+.form button:hover i.fa-regular{ 
+    visibility:visible; 
+ 
+}
+
+/* footer .form button:hover p::after {
+    content: "📄";
+    color: #FF4500;
+} */
+
+/* ! -------- TOP BUTTON --------- */
+
+.top-button {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: #D2B48C;
+    width: 6rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.top-button:hover {
+    background-color: #FF4500;
+}
+
+.top-button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
