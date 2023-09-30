@@ -116,12 +116,16 @@ nav a:hover {
 #contact .icons a {
     color: #D2B48C;
     text-decoration: none;
-    margin-right: 1rem;
+    margin: 1rem;
     padding: .5rem 1rem;
 }
 
 #contact .icons a:hover {
     color: #FF4500;
+}
+
+#contact .icons i {
+    margin: px;
 }
 
 /* ! -------- FOOTER --------- */
