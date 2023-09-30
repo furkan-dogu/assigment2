@@ -154,7 +154,11 @@ footer .form .form-box textarea {
     border-radius: 5px;
     text-align: center;
     font-size: 1rem;
-    font-family: sans-serif;
+    font-family: Helvetica, sans-serif;
+}
+
+#textarea {
+    resize: vertical;
 }
 
 
@@ -166,7 +170,7 @@ footer .form button {
     color: white;
     font-weight: 900;
     font-size: 1rem;
-    text-transform: uppercase;
+    
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
     border: none;
@@ -175,10 +179,7 @@ footer .form button {
     border-radius: 5px;
 }
 
-button i{ 
-    color: #FF4500; 
-    visibility: hidden; 
-}
+
 
 footer .form button:hover {
     color: #FF4500;
@@ -187,15 +188,13 @@ footer .form button:hover {
     
 }
 
-.form button:hover i.fa-regular{ 
-    visibility:visible; 
- 
-}
 
-/* footer .form button:hover p::after {
-    content: "📄";
+
+footer .form button:hover::after {
+    content: "🖅";
+    font-size: 1.2rem;
     color: #FF4500;
-} */
+}
 
 /* ! -------- TOP BUTTON --------- */
 
